@@ -1,0 +1,82 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 72,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "vs-seti",
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "window.zoomLevel": 0,
+    "editor.tokenColorCustomizations": {
+        "comments": "#13CC13F6",
+        "variables": "#FA2CFA",
+        "functions": "#2FE0FD",
+        "strings": "#F99F38",
+        "types": "#FE2023",
+        "numbers": "#FF0082",
+        "keywords": "#91FC20",
+        "var": "#FF0000",
+        "textMateRules": [
+            {
+                "name": "commentLines",
+                "scope": ["comment.line.double-slash", "punctuation.definition.comment"],
+                "settings": {
+                    "foreground": "#13CC13F6"
+                }
+            },
+            {
+                "name": "Others",
+                "scope": ["support.variable", "storage.type"],
+                "settings": {
+                    "foreground": "#08FF2C"
+                }
+            },
+            // {
+            //     "name": "Expressions",
+            //     "scope":[
+            //         "storage.type.function"],
+            //     "settings": {
+            //         "foreground": "#08FF2C"
+            //     }
+            // },
+            {
+                "name": "vars",
+                "scope": ["variable.other"],
+                "settings": {
+                    "foreground": "#FA2CFA"
+                }
+            },
+            {
+                "name": "function-calls",
+                "scope": ["support.function","meta.function-call", "support.type"],
+                "settings": {
+                    "foreground": "#2FE0FD"
+                }
+            },
+            {
+                "name": "booleanText",
+                "scope": ["constant.language.boolean"],
+                "settings": {
+                    "foreground": "#FE83CD"
+                }
+            },
+            {
+                "name": "meta",
+                "scope": ["meta.object"],
+                "settings": {
+                    "foreground": "#CF6565"
+                }
+            },
+            {
+                "name": "source stuff and punctuation",
+                "scope": ["meta.brace", "source"],
+                "settings": {
+                    "foreground": "#FFF200ED"
+                }
+            }
+        ]
+    }
+}
